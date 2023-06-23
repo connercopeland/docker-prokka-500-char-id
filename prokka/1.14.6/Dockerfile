@@ -47,6 +47,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
  g++ \
  cpanminus \
  make \
+ vim \
  libidn11 && \
  apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
